@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* Styling for the entire body */
+body{
+	width: 80%;
+    margin: auto;
+}
+
+#about {
+	font-family: 'Quantico', sans-serif;
+	font-size: 1.5em;
+}
+
+#about figure {
+	position: relative;
+}
+
+.flexItem {
+	border: 1px solid tan;
+	padding: 1.5em;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+header{
+	background-color: bisque;
+}
+
+header h1 {
+	font-family: 'Quantico', sans-serif;
+	color: coral;
+	padding: .1em;
+	font-size: 3em;
+}
+
+header h2 {
+	font-family: 'Quantico', sans-serif;
+	padding: .5em;
+	font-size: 2em;
+}
+
+/* Make the background paved with an image */
+#hero {	
+	padding: 20vh;
+	background-image: url(../images/fruit.jpg);
+	background-repeat: repeat-x;
+}
+
+.logo{
+	display: flex;
+    width: 100%;
+    justify-content:left;
+    align-items:center;
+}
+
+section {
+	flex-basis: 100%;
+	background-color: bisque;
+}
+
+label {
+	font-family: 'Quantico', sans-serif;
+}
+
+h2, h3, p {
+	color: coral;
+}
+
+a:hover {
+    color: rgb(129, 34, 34);
+}
+
+a[href^="tel:"]:before{
+    content: "\260e";
+    margin-right: 10px;
+}
+
+a {
+    color: coral;
+    text-decoration: none;
+}
+
+input[type="tel"]{
+    font-family: 'Quantico', sans-serif;
+}
+
+input[type="submit"]{
+    font-family: 'Quantico', sans-serif;
+}
+
+#bases {
+	font-family: 'Quantico', sans-serif;
+}
