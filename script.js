@@ -1,3 +1,4 @@
+// Define variables
 const form = document.getElementById('smoothieForm');
 
 function Smoothie(size, base, ingridients, customerName ) {
